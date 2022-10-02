@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,9 +19,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
 <body>
+
   <nav class="navbar navbar-expand-lg bg-white">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="imagens/logo.png" alt="logo"></a>
@@ -44,9 +48,81 @@
           </li>
         </ul>
       </div>
-      <div id="vazio"></div>
-    </div>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Aluno
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Cadastre-se</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form class="row g-3">
+                <div class="col-12">
+                  <label for="inputEmail4" class="form-label">Nome</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Endereço</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Logradouro, Número, Bairro">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">Cidade</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Estado</label>
+                  <select id="inputState" class="form-select">
+                    <option selected></option>
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">CEP</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
   </nav>
+  
   <header id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -123,8 +199,8 @@
           <div id="text-2" class="widget widget_text">
             <h5 class="widgettitle title m_title m_title_ext text-custom"><strong>Alfabetizando</strong></h5>
             <div class="textwidget">
-                Rua Não Existente, 000.&nbsp;Bairro X.&nbsp;<br>XXXXX-XXX – Belo Horizonte – MG – Brasil<br>Telefone: (31)
-                9999-9999.</p>
+              Rua Não Existente, 000.&nbsp;Bairro X.&nbsp;<br>XXXXX-XXX – Belo Horizonte – MG – Brasil<br>Telefone: (31)
+              9999-9999.</p>
               <hr size="1">
             </div>
             &copy; Squad 21 Recode | Todos os direitos reservados
@@ -134,4 +210,5 @@
     </div>
   </footer>
 </body>
+
 </html>
