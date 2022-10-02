@@ -1,19 +1,9 @@
 /* CSS Geral */
-* {
-    font-family: 'Chilanka', cursive;
+*{
+    font-family: 'JetBrains Mono', monospace;
 }
 
-
-.col ul li {
-    list-style-type: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
@@ -30,16 +20,17 @@ h6 {
     color: rgb(151, 151, 151)
 }
 
-.container p {
-    text-align: justify;
-}
 
 /* CSS Home-index */
 
 .navbar img {
-
     max-width: 100px;
     max-height: 100px;
+}
+
+#vazio{
+    height: 70px;
+    width: 100px;
 }
 
 #carouselExampleIndicators {
@@ -52,31 +43,74 @@ h6 {
     max-height: 500px;
 }
 
+main p{
+    margin: 0 60px;
+    text-align: center;
+}
+
+main .container{
+    padding: 50px;
+}
+
+footer .row{
+    justify-content: center;
+}
+
 /* CSS Projetos */
 
 .card img {
     max-height: 400px;
 }
 
+#cards{
+    min-height: 100vh;
+    min-width: 100vh;
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 50px;
+}
 
+#titleProjetos{
+    background-color: rgb(43, 103, 235);
+    color:rgb(255, 255, 255)
+}
 
 /* CSS Contato */
 
-.titleContato {
-    margin: 45px;
+#contato{
+    margin: 50px auto 0;
+    min-width: 320px;
+    max-width: 750px;
+    text-align: center;
 }
 
-.listUlContato {
-    margin-top: 25%;
-
+#emailForm{
+    margin-top: 50px;
 }
 
-.listUlContato li {
-    padding: 30px;
-    font-weight: bold;
+main button{
+    background-color: rgb(106, 144, 228)!important;
+    width: 350px!important;
+    margin: 50px auto;
 }
 
+#contato button:hover{
+    background-color: rgb(31, 95, 231)!important;
+}
 .col-map {
     padding: 0;
     border: 1px solid #000;
+}
+
+/*CSS Voluntariado*/
+
+#titleVoluntariado{
+    margin: 100px auto 75px;
+}
+
+#formVoluntariado{
+    min-width: 320px;
+    max-width: 750px;
+    margin: auto;
 }

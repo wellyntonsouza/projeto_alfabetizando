@@ -1,101 +1,102 @@
 <!doctype html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contato - Alfabetizando</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
   <!-- JS BootStrap -->
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
     crossorigin="anonymous"></script>
-
   <!-- Meu css -->
-
   <link rel="stylesheet" href="style.css">
-
-
-   <!-- Google Fonts -->
-
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
-
-
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
 </head>
-
 <body>
-<div class="container">
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg bg-white shadow">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><img src="imagens/logo.png" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="voluntariado.html">Voluntariado</a>
+            <a class="nav-link" href="voluntariado.html">Voluntariado</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="projetos.html">Projetos</a>
           </li>
-            <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="contato.html">Contato</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Pesquisa</button>
-        </form>
       </div>
+      <div id="vazio"></div>
     </div>
   </nav>
-</div>
-
-<div class="container">
-  <h3 class="titleContato">Contato</h3>
-</div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col col-map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.1737722248977!2d-44.00878718447018!3d-19.832598940410943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa691ecb00d7fb5%3A0xb2fbde2ffea30321!2sConquista%20Pampulha!5e0!3m2!1spt-BR!2sbr!4v1657813468320!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <main>
+    <div id="contato">
+      <h1><strong>INFORMAÇÕES E CONTATO</strong></h1>
+      <p><strong>ATENDIMENTO NOS DIAS ÚTEIS, DAS 9H ÀS 17H</strong></p>
+      <div class="container">
+        <div class="row">
+          <div class="col col-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.1737722248977!2d-44.00878718447018!3d-19.832598940410943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa691ecb00d7fb5%3A0xb2fbde2ffea30321!2sConquista%20Pampulha!5e0!3m2!1spt-BR!2sbr!4v1657813468320!5m2!1spt-BR!2sbr"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
       </div>
-      <div class="col">
-        <ul class="listUlContato">
-          <li>
-            Rua Não Existente, 000. Bairro X, Belo Horizonte/MG 
-          </li>
-          <li>
-            31 99999-9999
-          </li>
-          <li>
-            contato@dominio.com.br
-          </li>
-          
+      <div id="dadosContato">
+        <ul>
+          <ul>SAC: 31 99999-9999</ul>
+          <ul>WhatsApp: (XX) X XXXX-XXXX</ul>
+          <ul>Rua Não Existente, 000<br> Bairro X, Belo Horizonte/MG</ul>
         </ul>
-      
+      </div>
+      <div id="emailForm">
+        <h2>Contate-nos via email</h2>
+        <div class="form-control form-control-lg">
+          <label for="exampleFormControlInput1" class="form-label">EMAIL</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@exemplo.com">
+        </div>
+        <div class="form-control form-control-lg">
+          <label for="exampleFormControlTextarea1" class="form-label">MENSAGEM</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button class="form-control form-control-lg" type="submit">ENVIAR</button>
+      </div>
     </div>
-    <br>
-    
-  </div>
-  </div>
-<div class="container">
- 
+  </main>
+  <hr size="2">
   <footer>
-    <hr>
-    &copy; Todos os direitos reservados | Squad 21 Recode
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <div id="text-2" class="widget widget_text">
+            <h5 class="widgettitle title m_title m_title_ext text-custom"><strong>Alfabetizando</strong></h5>
+            <div class="textwidget">
+                Rua Não Existente, 000.&nbsp;Bairro X.&nbsp;<br>XXXXX-XXX – Belo Horizonte – MG – Brasil<br>Telefone: (31)
+                9999-9999.</p>
+              <hr size="1">
+            </div>
+            &copy; Squad 21 Recode | Todos os direitos reservados
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
-</div>
 
 </body>
 
